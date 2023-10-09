@@ -27,59 +27,67 @@
         <img class="header__logo" src="img/logo.png" alt="Logo">
         <nav class="header__social">
             <ul class="header__social-menu">
-                <li class="header__social-menu-item"><a class="header__social-menu-link" href="https://twitter.com/"><img src="img/twitter.svg" alt="Twitter"></a></li>
-                <li class="header__social-menu-item"><a class="header__social-menu-link" href="https://www.facebook.com/"><img src="img/facebook.svg" alt="Facebook"></a></li>
-                <li class="header__social-menu-item"><a class="header__social-menu-link" href="https://www.linkedin.com/"><img src="img/linkedin.svg" alt="LinkedIn"></a></li>
+                <li class="header__social-menu-item"><a class="header__social-menu-link"
+                        href="https://twitter.com/"><img src="img/twitter.svg" alt="Twitter"></a></li>
+                <li class="header__social-menu-item"><a class="header__social-menu-link"
+                        href="https://www.facebook.com/"><img src="img/facebook.svg" alt="Facebook"></a></li>
+                <li class="header__social-menu-item"><a class="header__social-menu-link"
+                        href="https://www.linkedin.com/"><img src="img/linkedin.svg" alt="LinkedIn"></a></li>
             </ul>
         </nav>
         <section class="header__container">
             <h1 class="header__title">The best products start with Figma</h1>
-            <p class="header__paragraph">Most calendars are designed for teams. Slate is designed for freelancers<p>
-            <a class="header__link" href="#">Try For Free</a>
+            <p class="header__paragraph">Most calendars are designed for teams. Slate is designed for freelancers
+            <p>
+                <a class="header__link" href="#">Try For Free</a>
         </section>
     </header>
     <main class="main">
-        <section>
-            <div>
-                <h2>Features</h2>
-                <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <section class="features">
+            <div class="features__container">
+                <h2 class="features__title">Features</h2>
+                <p class="features__paragraph">Most calendars are designed for teams. Slate is designed for freelancers
+                </p>
             </div>
-            <div>
-                <article>
-                    <img src="img/vector1.svg">
-                    <h3>OpenType features Variable fonts</h3>
-                    <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            <div class="features__items">
+                <article class="features__item item">
+                    <img class="item__image" src="img/vector1.svg">
+                    <h3 class="item__header">OpenType features Variable fonts</h3>
+                    <p class="item__paragraph">Slate helps you see how many more days you need to work to reach your
+                        financial goal.</p>
                 </article>
-                <article>
-                    <img src="img/vector2.svg">
-                    <h3>Design with real data</h3>
-                    <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                <article class="features__item item">
+                    <img class="item__image" src="img/vector2.svg">
+                    <h3 class="item__header">Design with real data</h3>
+                    <p class="item__paragraph">Slate helps you see how many more days you need to work to reach your
+                        financial goal.</p>
                 </article>
-                <article>
-                    <img src="img/vector3.svg">
-                    <h3>Fastest way to take action</h3>
-                    <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                <article class="features__item item">
+                    <img class="item__image" src="img/vector3.svg">
+                    <h3 class="item__header">Fastest way to take action</h3>
+                    <p class="item__paragraph">Slate helps you see how many more days you need to work to reach your
+                        financial goal.</p>
                 </article>
             </div>
-            <video src="#" controls></video>
+            <video class="features__video" src="#" controls></video>
         </section>
-        <section>
-            <div>
-                <h2>Fastest way to organize</h2>
-                <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-                <a href="#">Try For Free</a>
+        <section class="organize">
+            <div class="organize__container">
+                <h2 class="organize__title">Fastest way to organize</h2>
+                <p  class="organize__paragraph">Most calendars are designed for teams. Slate is designed for freelancers</p>
+                <a class="organize__link" href="#">Try For Free</a>
             </div>
-            <img src="img/macbook.svg" alt="Macbook Pro">
+            <img  class="organize__image" src="img/macbook.svg" alt="Macbook Pro">
         </section>
-        <section>
-            <img src="img/newsletter.png" alt="Newsletter">
-            <div>
-                <h3>At your fingertips</h3>
-                <h2>Lightning fast prototyping</h2>
-                <h3>Subscribe to our Newsletter</h3>
-                <p>Available exclusivery on Figmaland</p>
-                <input type="email" name="user_email" placeholder="Your Email">
-                <button type="submit">Subscribe</button>
+        <section class="prototyping">
+            <img class="prototyping__image" src="img/newsletter.png" alt="Newsletter">
+            <div class="prototyping__container">
+                <p class="prototyping__paragraph">At your fingertips</p>
+                <h2 class="prototyping__title">Lightning fast prototyping</h2>
+                <p class="prototyping__paragraph">Subscribe to our Newsletter</p>
+                <p class="prototyping__paragraph">Available exclusivery on Figmaland</p>
+                <input class="prototyping__field" type="email" name="user_email" placeholder="Your Email">
+                <button class="prototyping__button" type="submit">Subscribe</button>
             </div>
         </section>
         <section>
@@ -192,6 +200,7 @@
                 <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
             </div>
             <form action="/submit">
+                <h3>Contact Us</h3>
                 <input type="text" name="name" placeholder="Your Name"><br />
                 <input type="email" name="email" placeholder="Your Email"><br />
                 <input type="text" name="message" placeholder="Your Message"><br />
@@ -213,8 +222,10 @@
                     </li>
                 </ul>
                 <iframe
-                    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
-                    width="516px" height="323.19px"></iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d219790.81243597833!2d-122.75496549780831!3d49.14005084500787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1696854446004!5m2!1suk!2sua"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
                 <ul>
                     <li><a href="https://twitter.com/"><img src="img/twitter.svg" alt="Twitter"></a></li>
                     <li><a href="https://www.facebook.com/"><img src="img/facebook.svg" alt="Facebook"></a></li>
@@ -250,9 +261,9 @@
                 <ul>
                     <li><a href="#">Philip Jones</a></li>
                     <li><a href="#">Product</a></li>
-                    <li><a href="#"></a>Colleen Russell</li>
-                    <li><a href="#"></a>Marvin Hawkins</li>
-                    <li><a href="#"></a>Bruce Simmmons</li>
+                    <li><a href="#">Colleen Russell</a></li>
+                    <li><a href="#">Marvin Hawkins</a></li>
+                    <li><a href="#">Bruce Simmmons</a></li>
                 </ul>
             </div>
         </section>
@@ -262,7 +273,7 @@
                 <span>7480 Mockingbird Hill undefined</span><br />
                 <img src="img/phone_w.svg" alt="Phone logo">
                 <a href="tel:2395550108">(239) 555-0108</a>
-              </address>
+            </address>
             <ul>
                 <li><a href="https://twitter.com/"><img src="img/twitter.svg" alt="Twitter"></a></li>
                 <li><a href="https://www.facebook.com/"><img src="img/facebook.svg" alt="Facebook"></a></li>
@@ -271,4 +282,5 @@
         </section>
     </footer>
 </body>
+
 </html>
