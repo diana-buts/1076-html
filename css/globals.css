@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: white;
+    --text-color-main: rgba(37, 43, 66, 1);
+    --text-color-extra:rgba(55, 71, 84, 1);
+    --border-color: rgba(222, 222, 222, 1);
+    --background-color: white;
+    --accent-color: rgba(37, 43, 66, 1);
+    scroll-behavior: smooth;
+    font-family: "Graphik", sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1230px;
+    margin: auto;
+}
